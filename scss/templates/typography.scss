@@ -1,0 +1,189 @@
+// Base rules
+
+p, .p {
+  font-family: $text-family-body;
+  font-size: 15px;
+  color: $color-cobalt;
+  line-height: 27px;
+  opacity: .80;
+  font-weight: 300;
+}
+
+.p-mini {
+  font-size: 13px !important;
+}
+
+// Headers
+
+.small-pop-header {
+  font-family: $text-family-body;
+  font-size: 15px;
+  color: $color-pink;
+  line-height: 18px;
+  font-weight: $text-weight-bold;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.page-header {
+  font-family: $text-family-body;
+  font-size: 51px;
+  color: $color-cobalt;
+  font-weight: $text-weight-black;
+  line-height: 1.2em;
+}
+
+.section-header {
+  font-family: $text-family-body;
+  font-size: 35px;
+  color: $color-cobalt;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+
+.cta-header {
+  font-family: $text-family-body;
+  font-size: 30px;
+  color: $color-cobalt;
+  font-weight: $text-weight-extra-bold;
+  line-height: 1.2em;
+}
+
+
+.sub-section-header {
+  font-family: $text-family-body;
+  font-size: 20px;
+  color: $color-cobalt;
+  font-weight: $text-weight-semi-bold;
+  line-height: 1.2em;
+}
+
+
+.benefit-header {
+  font-family: $text-family-body;
+  font-size: 20px;
+  color: $color-white;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+// Color resets
+
+.text-white {
+  color: $color-white !important;
+}
+
+.text-cobalt {
+  color: $color-cobalt !important;
+}
+
+.text-black {
+  color: #000000;
+}
+
+.text-pink {
+  color: $color-pink !important;
+}
+
+// Opacity resets
+
+.opacity-full {
+  opacity: 1;
+}
+
+.opacity-50 {
+  opacity: .5;
+}
+
+// Alignment
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+// Sizing
+
+.p-60 {
+  max-width: 60%;
+}
+
+.p-70 {
+  max-width: 70%;
+}
+// Tablet
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .benefit-header {
+    font-size: 14px;
+  }
+
+  .p-width-tablet-reset {
+    max-width: 100%;
+  }
+
+  .section-header {
+    font-size: 30px;
+  }
+
+  .sub-section-header {
+    font-size: 16px;
+  }
+
+  .page-header {
+    font-size: 40px;
+  }
+
+  .small-pop-header {
+    font-size: 12px;
+  }
+
+}
+// Mobile
+
+@media screen and (max-width: 768px) {
+ .benefit-header {
+   font-size: 13px;
+ }
+
+ .page-header {
+   font-size: 40px;
+ }
+
+ .section-header {
+   font-size: 35px;
+ }
+
+ .sub-section-header {
+   font-size: 17px;
+ }
+
+
+ .p-width-mobile-reset {
+   max-width: 100%;
+ }
+
+ .small-pop-header {
+   font-size: 13px;
+ }
+
+ .p-70 {
+   max-width: 100%;
+ }
+
+ .text-center-mobile {
+   text-align: center;
+ }
+
+ p {
+   font-family: $text-family-body;
+   font-size: 14px;
+   color: $color-cobalt;
+   line-height: 27px;
+   opacity: .80;
+   font-weight: 300;
+ }
+}

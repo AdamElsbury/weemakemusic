@@ -1,0 +1,82 @@
+.is-small-container {
+  max-width: 1152px !important;
+}
+
+.is-xs-container {
+  max-width: 950px !important;
+}
+
+.is-800-container {
+  max-width: 800px !important;
+}
+
+.is-500-container {
+  max-width: 500px !important;
+}
+
+.is-300-container {
+  max-width: 300px !important;
+}
+
+
+.is-margin-0-auto {
+  margin: 0 auto;
+}
+
+
+// Default Accordion
+
+.accordion-container {
+  cursor: pointer;
+
+  ::selection {
+    color: none;
+    background: none;
+  }
+
+  ::-moz-selection {
+    color: none;
+    background: none;
+  }
+
+  #accordion-hidden {
+    display: none;
+  }
+}
+
+// Width 100
+
+.width-100 {
+  width: 100%;
+}
+
+// FAQ dropdown container
+
+.dropdown-faq-container {
+  border-bottom: 2px solid $color-cobalt;
+  padding: 10px 0;
+  cursor: pointer;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+
+  .dropdown-faq-content {
+    display: none;
+  }
+}
+
+// Mobile
+
+@media screen and (max-width: 768px) {
+  .is-small-container, .is-xs-container, .is-800-container {
+    max-width: 100% !important;
+  }
+
+  .width-100-mobile {
+    width: 100%;
+  }
+}

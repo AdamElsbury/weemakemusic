@@ -1,0 +1,19 @@
+// Links
+
+.is-text-link {
+  font-family: $text-family-body;
+  font-weight: 400;
+  transition: ease-in-out 300ms;
+  font-size: 15px;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.footer-link-ul {
+  li {
+    display: block;
+    padding: 5px 0 5px 0;
+  }
+}

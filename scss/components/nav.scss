@@ -1,0 +1,269 @@
+.navbar {
+  background-color: transparent !important;
+}
+
+// Bulma overrides
+
+.navbar-link:not(.is-arrowless)::after {
+    border-color: $color-cobalt !important;
+}
+
+// Navigation text links
+
+.nav-link {
+  font-family: $text-family-body;
+  font-weight: $text-weight-medium;
+  font-size: 15px;
+  color: $color-cobalt;
+  transition: ease-in-out color 100ms;
+
+  &:hover {
+    color: $color-pink !important;
+  }
+}
+
+.nav-link-sub {
+  font-family: $text-family-body;
+  font-weight: $text-weight-medium;
+  font-size: 13px;
+  color: $color-cobalt;
+  transition: ease-in-out color 100ms;
+
+  &:hover {
+    color: $color-pink !important;
+  }
+}
+
+
+// Bulma dropdown hover ovveride
+
+.button {
+  border: none;
+  padding: 0;
+}
+
+// Buttons
+
+.button-reset {
+  background: none;
+  border: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+// Button globals
+
+.btn-primary {
+  font-family: $text-family-body;
+  font-size: 12px;
+  font-weight: 600;
+  color: #FFFFFF;
+  border: 3px solid transparent;
+  padding: 13px 43px 13px 43px;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  min-width: 120px;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  font-family: $text-family-body;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: transparent;
+  padding: 13px 43px 13px 43px;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  min-width: 120px;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn-primary-no-pad {
+  font-family: $text-family-body;
+  font-size: 12px;
+  font-weight: 600;
+  color: #FFFFFF;
+  border: 3px solid transparent;
+  padding: 13px;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  min-width: 140px;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn-secondary-no-pad {
+  font-family: $text-family-body;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: transparent;
+  padding: 13px;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -o-transition: all .3s;
+  outline: none;
+  cursor: pointer;
+}
+
+
+// Modifiers
+
+.fw {
+  width: 100%;
+}
+
+.square {
+  border-radius: 0px;
+}
+
+.rounded {
+  border-radius: 28px;
+}
+
+.btn-text-only {
+  font-family: $text-family-body;
+  font-size: 15px;
+  font-weight: $text-weight-semi-bold;
+  text-decoration: none;
+  color: $color-cobalt;
+  transition: all .3s ease-in-out;
+
+  img, svg {
+    height: auto;
+    width: auto;
+    max-height: 0.7rem;
+    margin: 3px 0 0 10px;
+    transition: all 200ms ease-out;
+  }
+
+  &:hover {
+    text-decoration: underline;
+
+    img {
+      margin-left: 25px;
+    }
+  }
+}
+
+
+// Colors
+
+.btn-pink {
+  border: 3px solid $color-pink;
+  background-color: $color-pink;
+  color: #FFF;
+
+  &:hover {
+    background-color: transparent;
+    color: $color-pink;
+  }
+}
+
+.btn-pink-secondary {
+  border: 3px solid $color-pink;
+  background-color: transparent;
+  color: $color-pink;
+
+  &:hover {
+    background-color: $color-pink;
+    color: $color-white;
+  }
+}
+
+
+.btn-white-secondary {
+  border: 3px solid $color-white;
+  background-color: $color-white;
+  color: $color-cobalt;
+
+  &:hover {
+    background-color: $color-pink;
+    border: 3px solid $color-pink;
+    color: $color-white;
+  }
+}
+
+.btn-bronze-secondary-no-pad {
+  border: 3px solid $color-green;
+  background-color: transparent;
+  color: $color-green;
+
+  &:hover {
+    background-color: $color-green;
+    border: 3px solid $color-green;
+    color: $color-white;
+  }
+}
+
+.btn-yellow-secondary {
+  border: 3px solid $color-green;
+  background-color: transparent;
+  color: $color-green;
+
+  &:hover {
+    background-color: $color-green;
+    border: 3px solid $color-green;
+    color: $color-white;
+  }
+}
+
+// Carousel Controls
+
+.mobile-carousel-control-container {
+  display: none;
+}
+
+.carousel-control-container {
+  height: 60px;
+  width: 60px;
+  border: 3px solid #343434;
+  background-color: transparent;
+  transition: background-color 200ms ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #343434;
+
+    svg {
+      path {
+        fill: $color-white;
+      }
+    }
+  }
+}
+
+// Tablet
+
+
+
+
+// Mobile
+
+@media screen and (max-width: 1024px) {
+  .navbar-dropdown {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .btn-mobile-full-width {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  .mobile-carousel-control-container {
+    display: flex;
+  }
+}

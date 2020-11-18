@@ -1,0 +1,151 @@
+// Standard form
+input[type=checkbox] {
+  height: 15px;
+  width: 15px;
+  margin-top: 2px;
+}
+
+.std-form {
+  width: 100%;
+  margin: 0;
+
+  input[type=text] {
+    background-color: $color-peach;
+    font-family: $text-family-body;
+    font-size: 12px;
+    font-weight: 300;
+    color: $color-black;
+    padding: 17px 25px 17px 25px;
+    width: 100%;
+    border-radius: 26px;
+    border: none;
+  }
+
+  textarea {
+    background-color: $color-peach;
+    font-family: $text-family-body;
+    font-size: 12px;
+    font-weight: 300;
+    color: $color-black;
+    padding: 15px 25px 15px 25px;
+    width: 100%;
+    border-radius: 26px;
+    border: none;
+  }
+
+  .select-img-position {
+    position: relative;
+
+    img {
+      position: absolute;
+      width: auto;
+      height: auto;
+      height: 12px;
+      width: 12px;
+      right: 25px;
+      top: calc(12px + 0.3rem);
+    }
+  }
+
+  select {
+    border: 1px solid #E9E9E9;
+    background-color: $color-white;
+    border-radius: 7px;
+    font-family: $text-family-body;
+    font-size: 12px;
+    font-weight: 300;
+    color: $color-black;
+    padding: 15px 25px 15px 25px;
+    width: 100%;
+    appearance: none;
+    position: relative;
+    cursor: pointer;
+    -webkit-appearance: none;
+  }
+}
+
+// Search input
+
+.search-input {
+  border: 1px solid #E9E9E9 !important;
+  border-radius: 7px !important;
+  background-color: $color-white !important;
+  font-size: 12px !important;
+  font-family: $text-family-body !important;
+  font-weight: 300 !important;
+  color: $color-black !important;
+  padding: 15px 25px 15px 25px !important;
+  width: 100% !important;
+  position: relative !important;
+  appearance: none !important;
+  cursor: text !important;
+}
+
+.search-input-icon {
+  position: absolute;
+  width: auto;
+  height: auto;
+  max-width: 20px;
+  top: 13px;
+  right: 20px;
+}
+
+// FAQ Search input
+
+.faq-search-container {
+  position: relative;
+
+  img {
+    position: absolute;
+    width: auto;
+    height: auto;
+    height: 12px;
+    width: 12px;
+    left: 25px;
+    top: calc(12px + 0.3rem);
+  }
+
+  input[type=text] {
+    background-color: $color-white;
+    font-family: $text-family-body;
+    font-size: 12px;
+    font-weight: 300;
+    color: $color-black;
+    padding: 17px 25px 17px 50px;
+    width: 100%;
+    border-radius: 26px;
+    border: none;
+    height: 48px;
+  }
+}
+
+// General input
+
+.subscribe-input {
+  border: 0.1px solid rgba(0, 0, 0, 0.2);
+  background-color: $color-white;
+  font-family: $text-family-body;
+  font-size: 12px;
+  font-weight: 300;
+  color: $color-black;
+  padding: 15px 43px 15px 43px;;
+  width: 300px;
+}
+
+
+// Tablet
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .subscribe-input {
+    width: auto;
+    max-width: 51%;
+  }
+}
+
+// Mobile
+
+@media screen and (max-width: 768px) {
+  .subscribe-input {
+    width: 100%;
+  }
+}

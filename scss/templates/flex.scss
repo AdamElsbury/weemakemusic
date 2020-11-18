@@ -1,0 +1,80 @@
+// Flexbox
+
+.is-flex {
+  display: flex;
+}
+
+.is-flex-column {
+  flex-direction: column;
+}
+
+//
+
+.is-flex-between {
+  justify-content: space-between;
+}
+
+.is-flex-end {
+  justify-content: flex-end;
+}
+
+.is-flex-center {
+  align-items: center;
+}
+
+.is-flex-start {
+  align-items: flex-start;
+}
+
+// Combinations
+
+.is-flex-start-center {
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.is-flex-end-bottom {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.is-flex-end-center {
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.is-flex-justify-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.is-flex-column-between {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+// Flex items
+
+.is-flex-item-bottom {
+  margin-top: auto;
+}
+
+// Tablet
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .is-flex-column-tablet {
+    flex-direction: column;
+  }
+}
+// Mobile
+
+@media screen and (max-width: 768px) {
+  .is-flex-column-mobile {
+    flex-direction: column;
+  }
+
+  .columns.is-reversed-mobile {
+    flex-direction: column-reverse;
+    display: flex;
+  }
+}
