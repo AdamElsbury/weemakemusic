@@ -16,21 +16,21 @@ p, .p {
 // Headers
 
 .small-pop-header {
-  font-family: $text-family-body;
-  font-size: 15px;
-  color: $color-pink;
+  font-family: $text-family-header;
+  font-size: 14px;
+  color: $color-cobalt;
   line-height: 18px;
-  font-weight: $text-weight-bold;
-  letter-spacing: 1.5px;
+  font-weight: $text-weight-medium;
+  letter-spacing: 2px;
   text-transform: uppercase;
 }
 
 .page-header {
-  font-family: $text-family-body;
+  font-family: $text-family-header;
   font-size: 51px;
   color: $color-cobalt;
   font-weight: $text-weight-black;
-  line-height: 1.2em;
+  line-height: 1.4em;
 }
 
 .section-header {
@@ -81,8 +81,8 @@ p, .p {
   color: #000000;
 }
 
-.text-pink {
-  color: $color-pink !important;
+.text-green {
+  color: $color-green !important;
 }
 
 // Opacity resets

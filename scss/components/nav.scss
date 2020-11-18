@@ -18,7 +18,7 @@
   transition: ease-in-out color 100ms;
 
   &:hover {
-    color: $color-pink !important;
+    color: $color-cobalt !important;
   }
 }
 
@@ -30,7 +30,7 @@
   transition: ease-in-out color 100ms;
 
   &:hover {
-    color: $color-pink !important;
+    color: $color-purple !important;
   }
 }
 
@@ -56,7 +56,7 @@ button {
 // Button globals
 
 .btn-primary {
-  font-family: $text-family-body;
+  font-family: $text-family-header;
   font-size: 12px;
   font-weight: 600;
   color: #FFFFFF;
@@ -69,6 +69,7 @@ button {
   min-width: 120px;
   outline: none;
   cursor: pointer;
+  border-radius: 8px;
 }
 
 .btn-secondary {
@@ -84,6 +85,7 @@ button {
   min-width: 120px;
   outline: none;
   cursor: pointer;
+  border-radius: 8px;
 }
 
 .btn-primary-no-pad {
@@ -159,24 +161,36 @@ button {
 
 // Colors
 
-.btn-pink {
-  border: 3px solid $color-pink;
-  background-color: $color-pink;
+.btn-purple {
+  border: 3px solid $color-purple;
+  background-color: $color-purple;
   color: #FFF;
 
   &:hover {
     background-color: transparent;
-    color: $color-pink;
+    color: $color-purple;
   }
 }
 
-.btn-pink-secondary {
-  border: 3px solid $color-pink;
-  background-color: transparent;
-  color: $color-pink;
+.btn-green {
+  border: 3px solid $color-green;
+  background-color: $color-green;
+  color: #FFF;
 
   &:hover {
-    background-color: $color-pink;
+    background-color: transparent;
+    color: $color-green;
+  }
+}
+
+
+.btn-purple-secondary {
+  border: 3px solid $color-purple;
+  background-color: transparent;
+  color: $color-purple;
+
+  &:hover {
+    background-color: $color-purple;
     color: $color-white;
   }
 }
@@ -188,20 +202,20 @@ button {
   color: $color-cobalt;
 
   &:hover {
-    background-color: $color-pink;
-    border: 3px solid $color-pink;
+    background-color: $color-cobalt;
+    border: 3px solid $color-cobalt;
     color: $color-white;
   }
 }
 
 .btn-bronze-secondary-no-pad {
-  border: 3px solid $color-green;
+  border: 3px solid $color-grey;
   background-color: transparent;
-  color: $color-green;
+  color: $color-grey;
 
   &:hover {
-    background-color: $color-green;
-    border: 3px solid $color-green;
+    background-color: $color-grey;
+    border: 3px solid $color-grey;
     color: $color-white;
   }
 }

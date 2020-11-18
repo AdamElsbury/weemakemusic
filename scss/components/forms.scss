@@ -10,7 +10,7 @@ input[type=checkbox] {
   margin: 0;
 
   input[type=text] {
-    background-color: $color-peach;
+    background-color: $color-grey;
     font-family: $text-family-body;
     font-size: 12px;
     font-weight: 300;
@@ -22,7 +22,7 @@ input[type=checkbox] {
   }
 
   textarea {
-    background-color: $color-peach;
+    background-color: $color-grey;
     font-family: $text-family-body;
     font-size: 12px;
     font-weight: 300;
@@ -48,14 +48,14 @@ input[type=checkbox] {
   }
 
   select {
-    border: 1px solid #E9E9E9;
+    border: none;
     background-color: $color-white;
     border-radius: 7px;
-    font-family: $text-family-body;
-    font-size: 12px;
+    font-family: $text-family-header;
+    font-size: 14px;
     font-weight: 300;
     color: $color-black;
-    padding: 15px 25px 15px 25px;
+    padding: 17px 43px 17px 43px;
     width: 100%;
     appearance: none;
     position: relative;
@@ -81,13 +81,12 @@ input[type=checkbox] {
   cursor: text !important;
 }
 
-.search-input-icon {
+.select-icon {
   position: absolute;
-  width: auto;
-  height: auto;
-  max-width: 20px;
-  top: 13px;
-  right: 20px;
+  width: 11px;
+  height: 6px;
+  top: 35px;
+  right: 46px;
 }
 
 // FAQ Search input

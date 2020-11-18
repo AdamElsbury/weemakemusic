@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="css/bulma.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">
+  <title>Wee Make Music</title>
+</head>
+<body>
+  <section class="section">
+    <div class="container">
+      <div class="nav-header pb-3">
+        <div class="columns">
+          <article class="column">
+          <a href="#">
+            <img src="assets/pinterest.png" alt="The pinterest logo" class="social-favicon mr-2">
+          </a>
+          <a href="#">
+            <img src="assets/facebook.png" alt="The facebook logo" class="social-favicon mr-2">
+          </a>
+          <a href="#">
+            <img src="assets/instagram.png" alt="The instagram logo" class="social-favicon">
+          </a>
+        </article>
+        </div>
+      </div>
+
+      <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand is-flex-center">
+        <a class="navbar-item" href="index.html">
+          <img src="assets/wee-make-music-logo.png" class="logo">
+        </a>
+
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu is-small-section-padding-mobile">
+        <div class="navbar-start pl-6 padding-remove-mobile">
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link nav-link" onclick="showHideDropdown()">
+              About Us
+            </a>
+
+            <div class="navbar-dropdown" id="navbarDropdown">
+              <a href="gym-cleaning.html" class="navbar-item nav-link-sub">
+                Gym Cleaning
+              </a>
+              <a class="navbar-item nav-link-sub">
+                Childcare Cleaning
+              </a>
+              <a class="navbar-item nav-link-sub">
+                Commercial Cleaning
+              </a>
+              <a class="navbar-item nav-link-sub">
+                Clinic Cleaning
+              </a>
+            </div>
+          </div>
+
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link nav-link" onclick="showHideDropdown()">
+              Classes
+            </a>
+
+            <div class="navbar-dropdown" id="navbarDropdown">
+              <a href="gym-cleaning.html" class="navbar-item nav-link-sub">
+                Gym Cleaning
+              </a>
+              <a class="navbar-item nav-link-sub">
+                Childcare Cleaning
+              </a>
+              <a class="navbar-item nav-link-sub">
+                Commercial Cleaning
+              </a>
+              <a class="navbar-item nav-link-sub">
+                Clinic Cleaning
+              </a>
+            </div>
+          </div>
+
+
+          <a href="about-us.html" class="navbar-item nav-link">
+            Testimonials
+          </a>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link nav-link" onclick="showHideDropdown()">
+              For Parents
+            </a>
+
+            <div class="navbar-dropdown" id="navbarDropdown">
+              <a href="gym-cleaning.html" class="navbar-item nav-link-sub">
+                Gym Cleaning
+              </a>
+              <a class="navbar-item nav-link-sub">
+                Childcare Cleaning
+              </a>
+              <a class="navbar-item nav-link-sub">
+                Commercial Cleaning
+              </a>
+              <a class="navbar-item nav-link-sub">
+                Clinic Cleaning
+              </a>
+            </div>
+          </div>
+
+
+          <a href="faq.html" class="navbar-item nav-link">
+            Contact Us
+          </a>
+        </div>
+
+        <div class="navbar-end is-flex is-flex-center">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a href="quote.html" class="btn-primary btn-green box-shadow btn-arrow-green">Book A Class <svg xmlns="http://www.w3.org/2000/svg" width="13.202" height="9.418" viewBox="0 0 13.202 9.418" class="ml-4 mt-1px"><path d="M24.856,136.172h0l-3.969-3.95a.76.76,0,0,0-1.072,1.077l2.665,2.652-9.843,0a.76.76,0,0,0,0,1.519l9.843,0-2.665,2.652a.76.76,0,0,0,1.072,1.077l3.969-3.95h0A.76.76,0,0,0,24.856,136.172Z" transform="translate(-11.876 -132)" fill="#fff"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </nav>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-80-container index-hero-bg">
+    <div class="container">
+      <div class="columns pt-10 pb-15">
+        <article class="column pr-6">
+          <div class="is-flex is-flex-center">
+            <img src="assets/circle-cross.svg" alt="Two crosses intersected" class="circle-cross-img">
+            <h1 class="small-pop-header ml-3 text-white">Brisbane Music Lessons for kids</h1>
+          </div>
+          <h2 class="page-header text-white mt-4">Better <span class="text-green">Teaching.</span> <br>
+            Better <span class="text-green">Engagement.</span> <br>
+            Better <span class="text-green">Wee Musicians.</span>
+          </h2>
+          <p class="text-white mt-4 opacity-full">We offer age-specific, targeted musical education for children. In line with our holistic approach to education, it is a comprehensive age-appropriate and sensory based curriculum aimed at addressing the developmental needs of children as they grow.</p>
+          <form action="" class="std-form">
+            <div class="columns is-variable is-1 mt-4">
+              <article class="column is-relative">
+                <select name="age" id="age" class="is-relative">
+                  <option value="volvo">3-14 Months</option>
+                  <option value="saab">14 months - 2.5 Years</option>
+                  <option value="mercedes">3-4 Years</option>
+                  <option value="audi">5 Years +</option>
+                </select>
+                <img src="assets/chevron-down.svg" alt="" class="select-icon">
+              </article>
+              <article class="column">
+                <a href="#" class="btn-primary btn-green box-shadow btn-arrow-green is-inline-block">Learn More <svg xmlns="http://www.w3.org/2000/svg" width="13.202" height="9.418" viewBox="0 0 13.202 9.418" class="ml-4 mt-1px"><path d="M24.856,136.172h0l-3.969-3.95a.76.76,0,0,0-1.072,1.077l2.665,2.652-9.843,0a.76.76,0,0,0,0,1.519l9.843,0-2.665,2.652a.76.76,0,0,0,1.072,1.077l3.969-3.95h0A.76.76,0,0,0,24.856,136.172Z" transform="translate(-11.876 -132)" fill="#fff"/></svg></a>
+              </article>
+            </div>
+          </form>
+        </article>
+        <article class="column is-flex is-flex-end-center">
+          <div class="play-container is-flex is-flex-justify-center is-flex-column">
+            <a href="" class="is-flex is-flex-justify-center is-flex-column">
+              <img src="assets/play-img.svg" alt="">
+              <p class="small-pop-header mt-2 text-white opacity-full">PLAY VIDEO</p>
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <div class="columns">
+
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+
+
+
+
+</body>
+</html>

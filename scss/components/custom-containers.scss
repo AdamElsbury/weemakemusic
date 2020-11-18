@@ -18,6 +18,10 @@
   max-width: 300px !important;
 }
 
+.is-80-container {
+  max-width: 95% !important;  
+}
+
 
 .is-margin-0-auto {
   margin: 0 auto;
@@ -67,6 +71,12 @@
   .dropdown-faq-content {
     display: none;
   }
+}
+
+// Margins & padding
+
+.mt-1px {
+  margin-top: 2px;
 }
 
 // Mobile

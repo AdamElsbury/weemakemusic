@@ -1,121 +1,21 @@
-// Index hero bg
-
 .index-hero-bg {
-  background-image: url(../assets/hero-bg.svg);
-  background-position: left top;
-  background-repeat: no-repeat;
-  background-size: 70%;
-}
-
-.wavy-pink-bg {
-  background-image: url(../assets/wavy-section-bg.svg);
-  background-position: top left;
+  background-image: url(../assets/index-hero.jpg);
+  background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.carousel-header-bg {
-  background-image: url(../assets/carousel-header-bg.jpg);
-  background-position: right bottom;
+.play-container {
+  border-radius: 50%;
+  height: 210px;
+  width: 210px;
+  background-color: $color-green;
+}
+
+.purple-with-cutout-bg {
+  background-image: url(../assets/purple-svg-cutout.svg);
+  background-position: top right;
   background-repeat: no-repeat;
-  background-size: 70%;
-}
-
-.circle-right-bg {
-  background-image: url(../assets/circle-right-bg.svg);
-  background-position: right -50px top 1px;
-  background-repeat: no-repeat;
-  background-size: auto;
-}
-
-.circle-left-green-bg {
-  background-image: url(../assets/left-circle-green-bg.svg);
-  background-position: left -120px top 1px;
-  background-repeat: no-repeat;
-  background-size: 40% 99%;
-}
-
-.wavy-hero-bg-small {
-  background-image: url(../assets/wavy-hero-bg.svg);
-  background-position: left 0 top -200px;
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
-.email-subscribe-bg {
-  background-color: $color-cobalt;
-
-  &:after {
-    content: "";
-    width: 50%;
-    float: right;
-    height: 5px;
-    background-color: $color-pink;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-  }
-}
-
-// Tablet
-
-@media (min-width: 769px) and (max-width: 1024px) {
-  .wavy-hero-bg-small {
-    background-position: left 0 top 0;
-  }
-
-  .carousel-header-bg {
-    background-image: url(../assets/carousel-header-mobile-bg.jpg);
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    background-size: 95%;
-    padding-bottom: 108px;
-  }
-}
-
-// Mobile
-
-@media screen and (max-width: 768px) {
-  .index-hero-bg {
-    background-image: url(../assets/index-hero-bg-mobile.svg);
-    background-position: left top;
-    background-repeat: no-repeat;
-    background-size: 100%;
-  }
-
-  .wavy-pink-bg {
-    background-image: url(../assets/wavy-section-bg-mobile.svg);
-    background-position: top left;
-    background-repeat: no-repeat;
-    background-size: 100%;
-  }
-
-  .carousel-header-bg {
-    background-image: url(../assets/carousel-header-mobile-bg.jpg);
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    background-size: 95%;
-    padding-bottom: 155px;
-  }
-
-  .circle-right-bg {
-    background-image: url(../assets/circle-right-bg.svg);
-    background-position: right -30px top 1px;
-    background-repeat: no-repeat;
-    background-size: 85%;
-  }
-
-  .circle-left-green-bg {
-    background-image: url(../assets/left-circle-green-bg.svg);
-    background-position: bottom -290px left -100px;
-    background-repeat: no-repeat;
-    background-size: 80% 99%;
-  }
-
-  .wavy-hero-bg-small {
-    background-image: url(../assets/wavy-hero-bg-small-mobile.svg);
-    background-position: left 0 top 0;
-    background-repeat: no-repeat;
-    background-size: 100%;
-  }
+  background-size: cover;
+  background-color: $color-purple;
 }
