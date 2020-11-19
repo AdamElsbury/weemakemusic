@@ -183,6 +183,18 @@ button {
   }
 }
 
+.btn-white-p {
+  border: 3px solid $color-white;
+  background-color: $color-white;
+  color: $color-purple;
+
+  &:hover {
+    background-color: transparent;
+    color: $color-white;
+  }
+}
+
+
 
 .btn-purple-secondary {
   border: 3px solid $color-purple;

@@ -11,13 +11,14 @@ input[type=checkbox] {
 
   input[type=text] {
     background-color: $color-grey;
-    font-family: $text-family-body;
-    font-size: 12px;
+    font-family: $text-family-header;
+    font-size: 14px;
     font-weight: 300;
-    color: $color-black;
+    color: $color-cobalt;
     padding: 17px 25px 17px 25px;
     width: 100%;
-    border-radius: 26px;
+    line-height: 1em;
+    border-radius: 8px;
     border: none;
   }
 
@@ -29,7 +30,7 @@ input[type=checkbox] {
     color: $color-black;
     padding: 15px 25px 15px 25px;
     width: 100%;
-    border-radius: 26px;
+    border-radius: 8px;
     border: none;
   }
 
@@ -53,6 +54,7 @@ input[type=checkbox] {
     border-radius: 7px;
     font-family: $text-family-header;
     font-size: 14px;
+    line-height: 1em;
     font-weight: 300;
     color: $color-black;
     padding: 17px 43px 17px 43px;
@@ -61,6 +63,10 @@ input[type=checkbox] {
     position: relative;
     cursor: pointer;
     -webkit-appearance: none;
+  }
+
+  .select-grey-bg {
+    background-color: $color-grey !important;
   }
 }
 

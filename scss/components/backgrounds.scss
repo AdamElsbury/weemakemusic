@@ -23,6 +23,25 @@
   border-radius: 20px;
 }
 
+.green-wide-bg {
+  background-color: $color-green;
+  max-width: 95% !important;
+  border-radius: 20px;
+}
+
+.purple-bg {
+  background-color: $color-purple;
+}
+
+.green-bg {
+  background-color: $color-green;
+}
+
+
+.purple-light-bg {
+  background-color: $color-light-purple;
+}
+
 .index-overlap-container {
   margin-top: -250px;
 }

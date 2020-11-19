@@ -67,6 +67,14 @@ p, .p {
   line-height: 1.2em;
 }
 
+.pill-text {
+  font-family: $text-family-header;
+  font-size: 14px;
+  color: $color-white;
+  font-weight: $text-weight-regular;
+  line-height: 1.2em;
+}
+
 // Color resets
 
 .text-white {

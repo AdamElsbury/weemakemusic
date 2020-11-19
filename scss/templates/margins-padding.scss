@@ -36,6 +36,11 @@
   padding: 50px;
 }
 
+.is-padding-75px {
+  padding: 75px;
+}
+
+
 .is-padding-medium-uniform {
   padding: 100px;
 }
@@ -50,6 +55,10 @@
 
 .pl-150-px {
   padding-left: 150px;
+}
+
+.pt-8 {
+  padding-top: 8rem !important;
 }
 
 .pt-10 {
@@ -73,6 +82,14 @@
 .mr-auto {
   margin-right: auto !important;
 }
+
+.mt-negative-200px {
+  margin-top: -200px;
+}
+
+.mb-negative-105px {
+  margin-bottom: -105px;
+}
 // Removals
 
 .padding-remove {
@@ -85,6 +102,17 @@
 
 .margin-bottom-remove {
   margin-bottom: 0 !important;
+}
+
+// Overlap container
+
+.overlap-container {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: -162px;
+    position: absolute;
 }
 
 // Tablet
