@@ -3,6 +3,8 @@
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
+  max-width: 95% !important;
+  border-radius: 20px;
 }
 
 .play-container {
@@ -18,4 +20,17 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-color: $color-purple;
+  border-radius: 20px;
+}
+
+.index-overlap-container {
+  margin-top: -250px;
+}
+
+// Small desktop
+
+@media screen and (max-width: 1675px) {
+  .index-hero-bg {
+    max-width: 100% !important;
+  }
 }

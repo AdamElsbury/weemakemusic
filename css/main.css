@@ -77,11 +77,11 @@ p, .p {
   line-height: 1.4em; }
 
 .section-header {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 35px;
   color: #363636;
-  font-weight: 700;
-  line-height: 1.2em; }
+  font-weight: 600;
+  line-height: 1.3em; }
 
 .cta-header {
   font-family: "Open Sans", sans-serif;
@@ -91,10 +91,10 @@ p, .p {
   line-height: 1.2em; }
 
 .sub-section-header {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   color: #363636;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.2em; }
 
 .benefit-header {
@@ -115,6 +115,9 @@ p, .p {
 
 .text-green {
   color: #86C43F !important; }
+
+.text-purple {
+  color: #5D2A58 !important; }
 
 .opacity-full {
   opacity: 1; }
@@ -384,12 +387,15 @@ p, .p {
   .alert-box {
     width: 100%; } }
 .is-text-link {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   transition: ease-in-out 300ms;
   font-size: 15px; }
-  .is-text-link:hover {
-    text-decoration: underline; }
+  .is-text-link svg {
+    transition: ease-in-out 300ms;
+    margin-left: 5px; }
+  .is-text-link:hover svg {
+    margin-left: 15px; }
 
 .footer-link-ul li {
   display: block;
@@ -410,7 +416,7 @@ p, .p {
   -moz-transition: all .3s;
   -o-transition: all .3s; }
 .btn-arrow-purple:hover svg path {
-  fill: #5D2A58 !important; }
+  fill: #FFFFFF !important; }
 
 .btn-arrow-green svg, .btn-arrow-green path {
   transition: all .3s;
@@ -766,6 +772,12 @@ input[type=checkbox] {
 .width-100 {
   width: 100%; }
 
+.width-80 {
+  width: 80%; }
+
+.width-50 {
+  width: 50%; }
+
 .dropdown-faq-container {
   border-bottom: 2px solid #363636;
   padding: 10px 0;
@@ -799,7 +811,9 @@ input[type=checkbox] {
   background-image: url(../assets/index-hero.jpg);
   background-position: center top;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  max-width: 95% !important;
+  border-radius: 20px; }
 
 .play-container {
   border-radius: 50%;
@@ -812,6 +826,14 @@ input[type=checkbox] {
   background-position: top right;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #5D2A58; }
+  background-color: #5D2A58;
+  border-radius: 20px; }
+
+.index-overlap-container {
+  margin-top: -250px; }
+
+@media screen and (max-width: 1675px) {
+  .index-hero-bg {
+    max-width: 100% !important; } }
 
 /*# sourceMappingURL=main.css.map */

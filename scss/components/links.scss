@@ -1,13 +1,20 @@
 // Links
 
 .is-text-link {
-  font-family: $text-family-body;
+  font-family: $text-family-header;
   font-weight: 400;
   transition: ease-in-out 300ms;
   font-size: 15px;
 
+  svg {
+    transition: ease-in-out 300ms;
+    margin-left: 5px;
+  }
+
   &:hover {
-    text-decoration: underline;
+    svg {
+      margin-left: 15px;
+    }
   }
 }
 

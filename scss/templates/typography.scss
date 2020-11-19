@@ -34,11 +34,11 @@ p, .p {
 }
 
 .section-header {
-  font-family: $text-family-body;
+  font-family: $text-family-header;
   font-size: 35px;
   color: $color-cobalt;
-  font-weight: 700;
-  line-height: 1.2em;
+  font-weight: $text-weight-semi-bold;
+  line-height: 1.3em;
 }
 
 .cta-header {
@@ -51,10 +51,10 @@ p, .p {
 
 
 .sub-section-header {
-  font-family: $text-family-body;
+  font-family: $text-family-header;
   font-size: 20px;
   color: $color-cobalt;
-  font-weight: $text-weight-semi-bold;
+  font-weight: $text-weight-regular;
   line-height: 1.2em;
 }
 
@@ -83,6 +83,10 @@ p, .p {
 
 .text-green {
   color: $color-green !important;
+}
+
+.text-purple {
+  color: $color-purple !important;
 }
 
 // Opacity resets
