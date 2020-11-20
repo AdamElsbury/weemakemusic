@@ -1,3 +1,5 @@
+// Page hero sections
+
 .index-hero-bg {
   background-image: url(../assets/index-hero.jpg);
   background-position: center top;
@@ -5,6 +7,10 @@
   background-size: cover;
   max-width: 95% !important;
   border-radius: 20px;
+}
+
+.about-hero-bg {
+  background-image: url(../assets/about-hero.jpg) !important;
 }
 
 .play-container {
@@ -37,6 +43,10 @@
   background-color: $color-green;
 }
 
+.grey-bg {
+  background-color: $color-grey;
+}
+
 
 .purple-light-bg {
   background-color: $color-light-purple;
@@ -49,7 +59,7 @@
 // Small desktop
 
 @media screen and (max-width: 1675px) {
-  .index-hero-bg {
+  .index-hero-bg, .green-wide-bg {
     max-width: 100% !important;
   }
 }

@@ -10,6 +10,14 @@
   max-height: 63px;
 }
 
+.team-portrait {
+  border-radius: 8px;
+}
+
+.outerlap-img {
+  border-radius: 13px 13px 13px 166px;
+}
+
 .social-favicon, .logo {
   &:hover {
     opacity: 0.7;
