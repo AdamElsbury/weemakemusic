@@ -34,6 +34,20 @@
   border-radius: 20px;
 }
 
+.purple-with-cutout-bg-flip {
+  background-image: url(../assets/purple-bg-svg-flip.svg);
+}
+
+.green-with-cutout-bg {
+  background-image: url(../assets/green-bg-underlay.svg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $color-green;
+  border-radius: 20px;
+}
+
+
 .green-wide-bg {
   background-color: $color-green;
   max-width: 95% !important;

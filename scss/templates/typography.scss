@@ -75,6 +75,22 @@ p, .p {
   line-height: 1.2em;
 }
 
+.giant-numbers {
+  font-family: $text-family-header;
+  font-size: 63px;
+  color: $color-white;
+  font-weight: $text-weight-bold;
+  line-height: 1.2em;
+}
+
+.happy-parents-number {
+  font-family: $text-family-header;
+  font-size: 137px;
+  color: $color-purple;
+  font-weight: $text-weight-extra-bold;
+  line-height: 1.2em;
+}
+
 // Color resets
 
 .text-white {

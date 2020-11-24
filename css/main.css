@@ -111,6 +111,20 @@ p, .p {
   font-weight: 400;
   line-height: 1.2em; }
 
+.giant-numbers {
+  font-family: "Poppins", sans-serif;
+  font-size: 63px;
+  color: #FFFFFF;
+  font-weight: 700;
+  line-height: 1.2em; }
+
+.happy-parents-number {
+  font-family: "Poppins", sans-serif;
+  font-size: 137px;
+  color: #5D2A58;
+  font-weight: 800;
+  line-height: 1.2em; }
+
 .text-white {
   color: #FFFFFF !important; }
 
@@ -253,6 +267,9 @@ p, .p {
 
 .mt-10 {
   margin-top: 9rem !important; }
+
+.mb-12 {
+  margin-bottom: 12em !important; }
 
 .mr-auto {
   margin-right: auto !important; }
@@ -440,6 +457,11 @@ footer {
   top: -145px;
   right: 30px; }
 
+.underlap-image-container {
+  position: absolute;
+  bottom: -145px;
+  left: 0; }
+
 .logo {
   max-height: 100% !important; }
 
@@ -618,6 +640,14 @@ button {
   background-color: #FFFFFF;
   color: #5D2A58; }
   .btn-white-p:hover {
+    background-color: transparent;
+    color: #FFFFFF; }
+
+.btn-white-g {
+  border: 3px solid #FFFFFF;
+  background-color: #FFFFFF;
+  color: #86C43F; }
+  .btn-white-g:hover {
     background-color: transparent;
     color: #FFFFFF; }
 
@@ -907,6 +937,17 @@ input[type=checkbox] {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #5D2A58;
+  border-radius: 20px; }
+
+.purple-with-cutout-bg-flip {
+  background-image: url(../assets/purple-bg-svg-flip.svg); }
+
+.green-with-cutout-bg {
+  background-image: url(../assets/green-bg-underlay.svg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #86C43F;
   border-radius: 20px; }
 
 .green-wide-bg {
