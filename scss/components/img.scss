@@ -32,6 +32,12 @@
     -o-transition: all .3s;
   }
 
+  svg {
+    path {
+      fill: $color-purple;
+    }
+  }
+
   &:hover {
     svg {
       path {
@@ -47,6 +53,12 @@
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     -o-transition: all .3s;
+  }
+
+  svg {
+    path {
+      fill: $color-green;
+    }
   }
 
   &:hover {

@@ -462,6 +462,20 @@ footer {
   bottom: -145px;
   left: 0; }
 
+.neg-mt-20px {
+  margin-top: -20px; }
+
+.cobalt-pill {
+  position: absolute;
+  top: -22px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 11px 49px;
+  background-color: #363636;
+  max-width: 50%; }
+
 .logo {
   max-height: 100% !important; }
 
@@ -485,6 +499,8 @@ footer {
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   -o-transition: all .3s; }
+.btn-arrow-purple svg path {
+  fill: #5D2A58; }
 .btn-arrow-purple:hover svg path {
   fill: #FFFFFF !important; }
 
@@ -493,6 +509,8 @@ footer {
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   -o-transition: all .3s; }
+.btn-arrow-green svg path {
+  fill: #86C43F; }
 .btn-arrow-green:hover svg path {
   fill: #86C43F !important; }
 
@@ -853,6 +871,9 @@ input[type=checkbox] {
 .is-300-container {
   max-width: 300px !important; }
 
+.is-200-container {
+  max-width: 200px !important; }
+
 .is-80-container {
   max-width: 95% !important; }
 
@@ -878,6 +899,9 @@ input[type=checkbox] {
 
 .width-80 {
   width: 80%; }
+
+.width-70 {
+  width: 70%; }
 
 .width-50 {
   width: 50%; }
@@ -925,6 +949,12 @@ input[type=checkbox] {
 .service-page-1-bg {
   background-image: url(../assets/service-page-1-hero.jpg) !important; }
 
+.our-fees-bg {
+  background-image: url(../assets/fees-hero.jpg) !important; }
+
+.faq-bg {
+  background-image: url(../assets/faq-hero.jpg) !important; }
+
 .play-container {
   border-radius: 50%;
   height: 210px;
@@ -955,14 +985,26 @@ input[type=checkbox] {
   max-width: 95% !important;
   border-radius: 20px; }
 
+.white-bg {
+  background-color: #FFFFFF; }
+
 .purple-bg {
+  background-color: #5D2A58; }
+
+.dark-purple-bg {
   background-color: #5D2A58; }
 
 .green-bg {
   background-color: #86C43F; }
 
+.dark-green-bg {
+  background-color: #6C9B37; }
+
 .grey-bg {
   background-color: #ECECEC; }
+
+.cobalt-bg {
+  background-color: #363636; }
 
 .purple-light-bg {
   background-color: #813E7B; }

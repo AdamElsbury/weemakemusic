@@ -17,6 +17,15 @@
   background-image: url(../assets/service-page-1-hero.jpg) !important;
 }
 
+.our-fees-bg {
+  background-image: url(../assets/fees-hero.jpg) !important;
+}
+
+.faq-bg {
+  background-image: url(../assets/faq-hero.jpg) !important;
+}
+
+
 
 .play-container {
   border-radius: 50%;
@@ -54,16 +63,32 @@
   border-radius: 20px;
 }
 
+.white-bg {
+  background-color: $color-white;
+}
+
 .purple-bg {
   background-color: $color-purple;
+}
+
+.dark-purple-bg {
+  background-color: $color-dark-purple;
 }
 
 .green-bg {
   background-color: $color-green;
 }
 
+.dark-green-bg {
+  background-color: #6C9B37;
+}
+
 .grey-bg {
   background-color: $color-grey;
+}
+
+.cobalt-bg {
+  background-color: $color-cobalt;
 }
 
 
