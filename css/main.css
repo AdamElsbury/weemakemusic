@@ -483,6 +483,24 @@ footer {
   .faq-button:hover {
     margin-top: 20px; }
 
+.gmap-card {
+  box-shadow: 8px 8px 32px 0px #e8eff7;
+  padding: 20px;
+  border-radius: 13px; }
+  .gmap-card div {
+    border-radius: 8px 8px 8px 88px;
+    margin-top: -40px;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0; }
+    .gmap-card div iframe {
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      position: absolute; }
+
 .logo {
   max-height: 100% !important; }
 
@@ -965,6 +983,12 @@ input[type=checkbox] {
 
 .concert-bg {
   background-image: url(../assets/concert-hero.jpg) !important; }
+
+.contact-bg {
+  background-image: url(../assets/contact-hero.jpg) !important; }
+
+.timetable-bg {
+  background-image: url(../assets/contact-hero.jpg) !important; }
 
 .play-container {
   border-radius: 50%;

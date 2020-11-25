@@ -39,3 +39,28 @@
     margin-top: 20px;
   }
 }
+
+// Google map cards
+
+.gmap-card {
+  box-shadow: 8px 8px 32px 0px #e8eff7;
+  padding: 20px;
+  border-radius: 13px;
+
+  div {
+    border-radius: 8px 8px 8px 88px;
+    margin-top: -40px;
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+
+    iframe {
+      left:0;
+      top:0;
+      height:100%;
+      width:100%;
+      position:absolute;
+    }
+  }
+}
