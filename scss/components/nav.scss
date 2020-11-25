@@ -224,13 +224,13 @@ button {
 
 .btn-white-secondary {
   border: 3px solid $color-white;
-  background-color: $color-white;
-  color: $color-cobalt;
+  background-color: transparent;
+  color: $color-white;
 
   &:hover {
-    background-color: $color-cobalt;
-    border: 3px solid $color-cobalt;
-    color: $color-white;
+    background-color: $color-white;
+    border: 3px solid $color-white;
+    color: $color-green;
   }
 }
 

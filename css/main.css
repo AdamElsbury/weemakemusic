@@ -516,8 +516,6 @@ footer {
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
   -o-transition: all .3s; }
-.btn-arrow-green svg path {
-  fill: #86C43F; }
 .btn-arrow-green:hover svg path {
   fill: #86C43F !important; }
 
@@ -686,12 +684,12 @@ button {
 
 .btn-white-secondary {
   border: 3px solid #FFFFFF;
-  background-color: #FFFFFF;
-  color: #363636; }
+  background-color: transparent;
+  color: #FFFFFF; }
   .btn-white-secondary:hover {
-    background-color: #363636;
-    border: 3px solid #363636;
-    color: #FFFFFF; }
+    background-color: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    color: #86C43F; }
 
 .btn-bronze-secondary-no-pad {
   border: 3px solid #ECECEC;
@@ -961,6 +959,9 @@ input[type=checkbox] {
 
 .faq-bg {
   background-image: url(../assets/faq-hero.jpg) !important; }
+
+.blog-bg {
+  background-image: url(../assets/blog-hero.jpg) !important; }
 
 .play-container {
   border-radius: 50%;
