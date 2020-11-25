@@ -27,3 +27,15 @@
   background-color: $color-cobalt;
   max-width: 50%;
 }
+
+// FAQ buttons
+
+.faq-button {
+  box-shadow: 8px 8px 32px 0px #e8eff7;
+  transition: all 0.3s;
+  cursor: pointer;
+
+  &:hover {
+    margin-top: 20px;
+  }
+}

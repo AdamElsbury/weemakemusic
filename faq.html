@@ -161,7 +161,7 @@
       <p class="p-mini mb-6">Choose a category...</p>
       <div class="columns">
         <article class="column">
-          <div class="cobalt-bg br-5 is-padding-30px">
+          <div class="cobalt-bg br-5 is-padding-30px faq-button">
             <div class="is-flex is-flex-justify-center is-flex-column">
               <img src="assets/uni-cap-cobalt.svg" alt="A uni cap">
               <p class="opacity-full small-pop-header text-white text-center mt-4">LEARNING & TEACHING</p>
@@ -169,7 +169,7 @@
           </div>
         </article>
         <article class="column">
-          <div class="cobalt-bg br-5 is-padding-30px">
+          <div class="cobalt-bg br-5 is-padding-30px faq-button">
             <div class="is-flex is-flex-justify-center is-flex-column">
               <img src="assets/briefcase.svg" alt="A briefcase">
               <p class="opacity-full small-pop-header text-white text-center mt-4">OPERATIONS</p>
@@ -177,7 +177,7 @@
           </div>
         </article>
         <article class="column">
-          <div class="cobalt-bg br-5 is-padding-30px">
+          <div class="cobalt-bg br-5 is-padding-30px faq-button">
             <div class="is-flex is-flex-justify-center is-flex-column">
               <img src="assets/compass.svg" alt="A compass">
               <p class="opacity-full small-pop-header text-white text-center mt-4">OTHER</p>
@@ -185,7 +185,71 @@
           </div>
         </article>
       </div>
+    </div>
+  </section>
 
+  <section class="section">
+    <div class="container is-500-container">
+      <div class="column is-flex-justify-center">
+        <h3 class="section-header text-center mb-3">Category 1</h3>
+        <p class="text-center">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+        <div class="dropdown-faq-container mt-4" onclick="openCloseAccordionContent()">
+          <div class="dropdown-faq-header is-flex is-flex-between is-flex-center">
+            <p class="sub-section-header opacity-full mr-5">Q</p>
+            <p class="opacity-full"><strong>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor?</strong></p>
+            <img src="assets/chevron-down.svg" alt="" class="ml-4" id="dropdown-chevron">
+          </div>
+          <div class="dropdown-faq-content pt-4 pb-4" id="dropdown-faq-content">
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-small-container">
+      <div class="columns is-variable is-8">
+        <article class="column">
+          <div class="is-flex is-flex-center">
+            <img src="assets/cross-circle-purple.svg" alt="Two crosses intersected" class="circle-cross-img">
+            <h3 class="small-pop-header ml-3">CONTACT US</h3>
+          </div>
+          <h4 class="section-header mt-4">Still have questions? Get in touch!</h4>
+          <p class="-width-80 mt-4">Fill out the form & a member of our team will get in touch within 3-5 working days! We can't wait to hear from you!</p>
+          <form action="" class="std-form mt-4">
+                <div class="columns is-multiline is-variable is-2">
+                  <article class="column is-half">
+                    <label for="name">Full Name</label>
+                    <input type="text" placeholder="Enter your name" class="mt-2">
+                  </article>
+                  <article class="column is-half">
+                    <label for="email">Email Address</label>
+                    <input type="text" placeholder="Enter your email" class="mt-2">
+                  </article>
+                  <article class="column is-full">
+                    <label for="message">Message</label>
+                    <textarea name="name" rows="8" cols="80" placeholder="Enter your message" class="mt-2"></textarea>
+                  </article>
+                  <article class="column is-full is-flex is-flex-justify-center">
+                    <div class="width-100">
+                      <submit class="btn-primary btn-purple btn-arrow-p rounded is-inline-block fw text-center">Send Message</submit>
+                    </div>
+                  </article>
+                </div>
+              </form>
+        </article>
+        <article class="column">
+          <div class="columns is-variable is-3">
+            <article class="column">
+              <img src="assets/00036.jpg" alt="A woman holding a child">
+            </article>
+            <article class="column">
+              <img src="assets/00064-small.jpg" alt="A child playing">
+            </article>
+          </div>
+        </article>
+      </div>
     </div>
   </section>
 
@@ -389,6 +453,6 @@
 
 
 
-
+<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
