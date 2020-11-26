@@ -64,3 +64,15 @@
     }
   }
 }
+
+// Mobile padding rules
+
+@media screen and (max-width: 768px) {
+  .pt-35rem-mobile {
+    padding-top: .35rem !important;
+  }
+
+  .pb-35rem-mobile {
+    padding-bottom: .35rem !important;
+  }
+}

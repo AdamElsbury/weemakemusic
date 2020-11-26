@@ -341,8 +341,14 @@ p, .p {
   .margin-remove-mobile {
     margin: 0 !important; }
 
+  .mb-negative-65px-mobile {
+    margin-bottom: -65px !important; }
+
   .pr-remove-mobile {
     padding-right: 0 !important; }
+
+  .padding-reset-mobile {
+    padding: 1.5rem !important; }
 
   .pr-reset-mobile {
     padding-right: 0.75rem !important; }
@@ -355,6 +361,9 @@ p, .p {
 
   .pb-reset-mobile {
     padding-bottom: 0.75rem !important; }
+
+  .section-padding-reset-mobile {
+    padding: 3rem 1rem !important; }
 
   .is-small-section-padding-mobile {
     padding: 20px 1.5rem 20px 1.5rem !important; }
@@ -400,6 +409,9 @@ p, .p {
 
   .pl-150-px {
     padding-left: 10px; }
+
+  .pb-25rem-mobile {
+    padding-bottom: 25rem !important; }
 
   .is-padding-small {
     padding: 15px 1rem !important; } }
@@ -508,6 +520,12 @@ footer {
       width: 100%;
       position: absolute; }
 
+@media screen and (max-width: 768px) {
+  .pt-35rem-mobile {
+    padding-top: .35rem !important; }
+
+  .pb-35rem-mobile {
+    padding-bottom: .35rem !important; } }
 .logo {
   max-height: 100% !important; }
 
