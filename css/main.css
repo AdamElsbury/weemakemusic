@@ -48,7 +48,11 @@
 
   .columns.is-reversed-mobile {
     flex-direction: column-reverse;
-    display: flex; } }
+    display: flex; }
+
+  .is-flex-justify-center-mobile {
+    justify-content: center;
+    align-items: center; } }
 p, .p {
   font-family: "Open Sans", sans-serif;
   font-size: 15px;
@@ -349,6 +353,9 @@ p, .p {
   .pt-reset-mobile {
     padding-top: 0.75rem !important; }
 
+  .pb-reset-mobile {
+    padding-bottom: 0.75rem !important; }
+
   .is-small-section-padding-mobile {
     padding: 20px 1.5rem 20px 1.5rem !important; }
 
@@ -537,6 +544,9 @@ footer {
 .btn-arrow-green:hover svg path {
   fill: #86C43F !important; }
 
+@media screen and (max-width: 768px) {
+  .play-button {
+    max-width: 50%; } }
 .navbar {
   background-color: transparent !important; }
 
@@ -929,6 +939,9 @@ input[type=checkbox] {
 .width-50 {
   width: 50%; }
 
+.height-100 {
+  height: 100%; }
+
 .dropdown-faq-container {
   border-bottom: 2px solid #363636;
   padding: 10px 0;
@@ -990,6 +1003,9 @@ input[type=checkbox] {
 .timetable-bg {
   background-image: url(../assets/schedule-hero.jpg) !important; }
 
+.testimonials-bg {
+  background-image: url(../assets/testimonials-hero.jpg) !important; }
+
 .play-container {
   border-radius: 50%;
   height: 210px;
@@ -1050,5 +1066,21 @@ input[type=checkbox] {
 @media screen and (max-width: 1675px) {
   .index-hero-bg, .green-wide-bg {
     max-width: 100% !important; } }
+@media screen and (max-width: 768px) {
+  .index-hero-bg {
+    background-image: url(../assets/index-hero-mobile.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100% !important;
+    border-radius: 0%; }
+
+  .play-container {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px; }
+
+  .index-overlap-container {
+    margin-top: 0; } }
 
 /*# sourceMappingURL=main.css.map */

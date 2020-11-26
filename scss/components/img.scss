@@ -63,3 +63,11 @@
     }
   }
 }
+
+// Mobile
+
+@media screen and (max-width: 768px) {
+  .play-button {
+    max-width: 50%;
+  }
+}

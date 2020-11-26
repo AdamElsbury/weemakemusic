@@ -77,4 +77,9 @@
     flex-direction: column-reverse;
     display: flex;
   }
+
+  .is-flex-justify-center-mobile {
+    justify-content: center;
+    align-items: center;
+  }
 }

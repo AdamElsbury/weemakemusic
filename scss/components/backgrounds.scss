@@ -41,6 +41,11 @@
   background-image: url(../assets/schedule-hero.jpg) !important;
 }
 
+.testimonials-bg {
+  background-image: url(../assets/testimonials-hero.jpg) !important;
+}
+
+
 
 
 
@@ -123,5 +128,28 @@
 @media screen and (max-width: 1675px) {
   .index-hero-bg, .green-wide-bg {
     max-width: 100% !important;
+  }
+}
+
+// Mobile
+
+@media screen and (max-width: 768px) {
+  .index-hero-bg {
+    background-image: url(../assets/index-hero-mobile.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100% !important;
+    border-radius: 0%;
+  }
+
+  .play-container {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+  }
+
+  .index-overlap-container {
+    margin-top: 0;
   }
 }
