@@ -131,6 +131,24 @@
   }
 }
 
+// Tablet
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .index-hero-bg {
+    background-image: url(../assets/index-hero-mobile.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100% !important;
+    border-radius: 0%;
+  }
+
+  .play-container {
+    height: 150px;
+    width: 150px;
+  }
+}
+
 // Mobile
 
 @media screen and (max-width: 768px) {

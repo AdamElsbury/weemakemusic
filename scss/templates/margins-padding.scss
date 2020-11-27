@@ -138,12 +138,29 @@
     padding-left: 25px;
   }
 
+  .pl-2rem-tablet {
+    padding-left: 2rem !important;
+  }
+
   .pl-remove-tablet {
     padding-left: 0 !important;
   }
 
+  .pl-reset-tablet {
+    padding-left: 0.75rem !important;
+  }
+
+  .pr-reset-tablet {
+    padding-right: 0.75rem !important;
+  }
+
+
   .pr-remove-tablet {
     padding-right: 0 !important;
+  }
+
+  .pr-2rem-tablet {
+    padding-right: 2rem !important;
   }
 
   .pt-2-tablet {
@@ -154,6 +171,17 @@
     padding-bottom: 2rem !important;
   }
 
+  .pt-reset-tablet {
+    padding-top: 0.75rem !important;
+  }
+
+  .pb-reset-tablet {
+    padding-bottom: 0.75rem !important;
+  }
+
+  .padding-reset-tablet {
+    padding: 1.5rem !important;
+  }
 
   .padding-remove-tablet {
     padding: 0 !important;
@@ -169,6 +197,10 @@
 
   .padding-top-remove-tablet {
     padding: 0 1.5rem 25px 1.5rem !important;
+  }
+
+  .section-padding-reset-tablet {
+    padding: 3rem 1.5rem !important;
   }
 }
 

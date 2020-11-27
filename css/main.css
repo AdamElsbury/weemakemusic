@@ -311,17 +311,38 @@ p, .p {
   .pl-150-px {
     padding-left: 25px; }
 
+  .pl-2rem-tablet {
+    padding-left: 2rem !important; }
+
   .pl-remove-tablet {
     padding-left: 0 !important; }
 
+  .pl-reset-tablet {
+    padding-left: 0.75rem !important; }
+
+  .pr-reset-tablet {
+    padding-right: 0.75rem !important; }
+
   .pr-remove-tablet {
     padding-right: 0 !important; }
+
+  .pr-2rem-tablet {
+    padding-right: 2rem !important; }
 
   .pt-2-tablet {
     padding-top: 2rem !important; }
 
   .pb-2-tablet {
     padding-bottom: 2rem !important; }
+
+  .pt-reset-tablet {
+    padding-top: 0.75rem !important; }
+
+  .pb-reset-tablet {
+    padding-bottom: 0.75rem !important; }
+
+  .padding-reset-tablet {
+    padding: 1.5rem !important; }
 
   .padding-remove-tablet {
     padding: 0 !important; }
@@ -333,7 +354,10 @@ p, .p {
     padding-top: 0 !important; }
 
   .padding-top-remove-tablet {
-    padding: 0 1.5rem 25px 1.5rem !important; } }
+    padding: 0 1.5rem 25px 1.5rem !important; }
+
+  .section-padding-reset-tablet {
+    padding: 3rem 1.5rem !important; } }
 @media screen and (max-width: 768px) {
   .padding-remove-mobile {
     padding: 0 !important; }
@@ -983,6 +1007,9 @@ input[type=checkbox] {
 .mt-1px {
   margin-top: 2px; }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .width-100-tablet {
+    width: 100% !important; } }
 @media screen and (max-width: 768px) {
   .is-small-container, .is-xs-container, .is-800-container {
     max-width: 100% !important; }
@@ -1084,6 +1111,18 @@ input[type=checkbox] {
 @media screen and (max-width: 1675px) {
   .index-hero-bg, .green-wide-bg {
     max-width: 100% !important; } }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .index-hero-bg {
+    background-image: url(../assets/index-hero-mobile.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100% !important;
+    border-radius: 0%; }
+
+  .play-container {
+    height: 150px;
+    width: 150px; } }
 @media screen and (max-width: 768px) {
   .index-hero-bg {
     background-image: url(../assets/index-hero-mobile.jpg);
