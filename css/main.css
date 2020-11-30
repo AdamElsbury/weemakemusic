@@ -179,7 +179,10 @@ p, .p {
     font-size: 40px; }
 
   .small-pop-header {
-    font-size: 12px; } }
+    font-size: 12px; }
+
+  .happy-parents-number {
+    font-size: 75px; } }
 @media screen and (max-width: 768px) {
   .benefit-header {
     font-size: 13px; }
@@ -204,6 +207,9 @@ p, .p {
 
   .text-center-mobile {
     text-align: center; }
+
+  .happy-parents-number {
+    font-size: 57px; }
 
   p {
     font-family: "Open Sans", sans-serif;
@@ -560,7 +566,11 @@ footer {
     left: 0;
     right: 0;
     margin-left: auto;
-    margin-right: auto; } }
+    margin-right: auto; }
+
+  .column .is-35-mobile {
+    flex: none;
+    width: 35%; } }
 .logo {
   max-height: 100% !important; }
 
@@ -1131,6 +1141,9 @@ input[type=checkbox] {
     max-width: 100% !important;
     border-radius: 0%; }
 
+  .about-hero-bg, .blog-hero-bg {
+    border-radius: 0px !important; }
+
   .play-container {
     height: 150px;
     width: 150px; } }
@@ -1145,6 +1158,9 @@ input[type=checkbox] {
 
   .about-hero-bg {
     background-image: url(../assets/about-hero-mobile.jpg) !important; }
+
+  .blog-hero-bg {
+    background-image: url(../assets/blog-hero-mobile.jpg) !important; }
 
   .play-container {
     border-radius: 50%;

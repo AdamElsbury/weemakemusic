@@ -84,4 +84,11 @@
     margin-left:auto;
     margin-right:auto;
   }
+
+  .column {
+    .is-35-mobile {
+      flex: none;
+      width: 35%;
+    }
+  }
 }

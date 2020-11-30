@@ -143,6 +143,10 @@
     border-radius: 0%;
   }
 
+  .about-hero-bg, .blog-hero-bg {
+    border-radius: 0px !important;
+  }
+
   .play-container {
     height: 150px;
     width: 150px;
@@ -164,6 +168,11 @@
   .about-hero-bg {
     background-image: url(../assets/about-hero-mobile.jpg) !important;
   }
+
+  .blog-hero-bg {
+    background-image: url(../assets/blog-hero-mobile.jpg) !important;
+  }
+
 
   .play-container {
     border-radius: 50%;
