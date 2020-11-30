@@ -65,7 +65,15 @@
   }
 }
 
-// Mobile padding rules
+// Tablet
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .outerlap-image-container {
+    top: -95px;
+  }
+}
+
+// Mobile
 
 @media screen and (max-width: 768px) {
   .pt-35rem-mobile {

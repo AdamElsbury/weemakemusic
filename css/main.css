@@ -556,6 +556,9 @@ footer {
       width: 100%;
       position: absolute; }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .outerlap-image-container {
+    top: -95px; } }
 @media screen and (max-width: 768px) {
   .pt-35rem-mobile {
     padding-top: .35rem !important; }
