@@ -185,10 +185,10 @@ p, .p {
     font-size: 13px; }
 
   .page-header {
-    font-size: 40px; }
+    font-size: 35px; }
 
   .section-header {
-    font-size: 35px; }
+    font-size: 30px; }
 
   .sub-section-header {
     font-size: 17px; }
@@ -386,6 +386,9 @@ p, .p {
   .pb-reset-mobile {
     padding-bottom: 0.75rem !important; }
 
+  .pb-20-mobile {
+    padding-bottom: 20rem !important; }
+
   .section-padding-reset-mobile {
     padding: 3rem 1rem !important; }
 
@@ -549,7 +552,15 @@ footer {
     padding-top: .35rem !important; }
 
   .pb-35rem-mobile {
-    padding-bottom: .35rem !important; } }
+    padding-bottom: .35rem !important; }
+
+  .outerlap-image-container {
+    position: absolute;
+    bottom: -145px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto; } }
 .logo {
   max-height: 100% !important; }
 
@@ -1131,6 +1142,9 @@ input[type=checkbox] {
     background-size: cover;
     max-width: 100% !important;
     border-radius: 0%; }
+
+  .about-hero-bg {
+    background-image: url(../assets/about-hero-mobile.jpg) !important; }
 
   .play-container {
     border-radius: 50%;

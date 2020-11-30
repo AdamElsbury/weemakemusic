@@ -75,4 +75,13 @@
   .pb-35rem-mobile {
     padding-bottom: .35rem !important;
   }
+
+  .outerlap-image-container {
+    position: absolute;
+    bottom: -145px;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+  }
 }
