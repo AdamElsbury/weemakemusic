@@ -630,7 +630,12 @@ footer {
     max-width: 50%; }
 
   .faq-icon {
-    max-width: 50px; } }
+    max-width: 50px; }
+
+  .graph {
+    max-width: 300px;
+    margin: 0 auto;
+    display: block; } }
 .navbar {
   background-color: transparent !important; }
 
@@ -1191,6 +1196,9 @@ input[type=checkbox] {
 
   .faq-bg {
     background-image: url(../assets/faq-hero-mobile.jpg) !important; }
+
+  .service-1-bg {
+    background-image: url(../assets/service-page-hero-mobile.jpg) !important; }
 
   .play-container {
     border-radius: 50%;
