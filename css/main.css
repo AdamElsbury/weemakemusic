@@ -612,7 +612,10 @@ footer {
 
 @media screen and (max-width: 768px) {
   .play-button {
-    max-width: 50%; } }
+    max-width: 50%; }
+
+  .faq-icon {
+    max-width: 50px; } }
 .navbar {
   background-color: transparent !important; }
 
@@ -1170,6 +1173,9 @@ input[type=checkbox] {
 
   .contact-bg {
     background-image: url(../assets/contact-hero-mobile.jpg) !important; }
+
+  .faq-bg {
+    background-image: url(../assets/faq-hero-mobile.jpg) !important; }
 
   .play-container {
     border-radius: 50%;
