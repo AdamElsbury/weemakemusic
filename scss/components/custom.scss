@@ -71,6 +71,10 @@
   .outerlap-image-container {
     top: -95px;
   }
+
+  .cobalt-pill {
+    max-width: 80%;
+  }
 }
 
 // Mobile
@@ -98,5 +102,9 @@
       flex: none;
       width: 35%;
     }
+  }
+
+  .cobalt-pill {
+    max-width: 90%;
   }
 }
