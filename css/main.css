@@ -275,6 +275,9 @@ p, .p {
 .pb-15 {
   padding-bottom: 15rem !important; }
 
+.pb-25 {
+  padding-bottom: 25rem !important; }
+
 .mt-10 {
   margin-top: 9rem !important; }
 
@@ -1164,6 +1167,9 @@ input[type=checkbox] {
 
   .concert-bg {
     background-image: url(../assets/concert-hero-mobile.jpg) !important; }
+
+  .contact-bg {
+    background-image: url(../assets/contact-hero-mobile.jpg) !important; }
 
   .play-container {
     border-radius: 50%;
