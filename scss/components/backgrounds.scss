@@ -45,16 +45,15 @@
   background-image: url(../assets/testimonials-hero.jpg) !important;
 }
 
-
-
-
-
-
 .play-container {
   border-radius: 50%;
-  height: 210px;
-  width: 210px;
+  height: 150px;
+  width: 150px;
   background-color: $color-green;
+
+  .play-button {
+    max-width: 55px;
+  }
 }
 
 .purple-with-cutout-bg {
@@ -188,6 +187,11 @@
   .service-1-bg {
     background-image: url(../assets/service-page-hero-mobile.jpg) !important;
   }
+
+  .testimonials-bg {
+    background-image: url(../assets/testimonials-hero-mobile.jpg) !important;
+  }
+
 
 
 

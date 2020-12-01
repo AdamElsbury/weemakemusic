@@ -526,6 +526,9 @@ footer {
 .neg-mt-20px {
   margin-top: -20px; }
 
+.neg-mb-60px {
+  margin-bottom: -60px; }
+
 .cobalt-pill {
   position: absolute;
   top: -22px;
@@ -562,12 +565,39 @@ footer {
       width: 100%;
       position: absolute; }
 
+.video-container-1 {
+  border-radius: 13px 13px 166px 13px;
+  background-image: url(../assets/video-1.jpg);
+  height: 318px;
+  position: relative;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .video-container-1 div {
+    position: absolute;
+    left: 40px;
+    bottom: 16px; }
+
+.video-container-2 {
+  border-radius: 13px 166px 13px 13px;
+  background-image: url(../assets/video-2.jpg);
+  height: 318px;
+  position: relative; }
+  .video-container-2 div {
+    position: absolute;
+    left: 40px;
+    bottom: 16px; }
+
 @media (min-width: 768px) and (max-width: 1024px) {
   .outerlap-image-container {
     top: -95px; }
 
   .cobalt-pill {
-    max-width: 80%; } }
+    max-width: 80%; }
+
+  .video-container-1, .video-container-2 {
+    border-radius: 13px 96px 13px 13px;
+    height: 228px; } }
 @media screen and (max-width: 768px) {
   .pt-35rem-mobile {
     padding-top: .35rem !important; }
@@ -588,7 +618,34 @@ footer {
     width: 35%; }
 
   .cobalt-pill {
-    max-width: 90%; } }
+    max-width: 90%; }
+
+  .video-container-1 {
+    border-radius: 8px 8px 120px 8px;
+    background-image: url(../assets/video-1.jpg);
+    height: 213px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 40px; }
+    .video-container-1 div {
+      position: absolute;
+      left: 40px;
+      bottom: 16px; }
+
+  .video-container-2 {
+    border-radius: 8px 120px 8px 8px;
+    background-image: url(../assets/video-2.jpg);
+    height: 213px;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .video-container-2 div {
+      position: absolute;
+      left: 40px;
+      bottom: 16px; } }
 .logo {
   max-height: 100% !important; }
 
@@ -1100,9 +1157,11 @@ input[type=checkbox] {
 
 .play-container {
   border-radius: 50%;
-  height: 210px;
-  width: 210px;
+  height: 150px;
+  width: 150px;
   background-color: #86C43F; }
+  .play-container .play-button {
+    max-width: 55px; }
 
 .purple-with-cutout-bg {
   background-image: url(../assets/purple-svg-cutout.svg);
@@ -1199,6 +1258,9 @@ input[type=checkbox] {
 
   .service-1-bg {
     background-image: url(../assets/service-page-hero-mobile.jpg) !important; }
+
+  .testimonials-bg {
+    background-image: url(../assets/testimonials-hero-mobile.jpg) !important; }
 
   .play-container {
     border-radius: 50%;
