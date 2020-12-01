@@ -12,10 +12,10 @@ input[type=checkbox] {
   input[type=text] {
     background-color: $color-grey;
     font-family: $text-family-header;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 300;
     color: $color-cobalt;
-    padding: 15px 25px 15px 25px;
+    padding: 13px 30px 13px 30px;
     width: 100%;
     line-height: 1em;
     border-radius: 8px;
@@ -24,14 +24,15 @@ input[type=checkbox] {
 
   textarea {
     background-color: $color-grey;
-    font-family: $text-family-body;
+    font-family: $text-family-header;
     font-size: 12px;
     font-weight: 300;
     color: $color-black;
-    padding: 15px 25px 15px 25px;
+    padding: 13px 30px 13px 30px;
     width: 100%;
     border-radius: 8px;
     border: none;
+    line-height: 1em;
   }
 
   .select-img-position {
@@ -53,11 +54,11 @@ input[type=checkbox] {
     background-color: $color-white;
     border-radius: 7px;
     font-family: $text-family-header;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1em;
     font-weight: 300;
     color: $color-black;
-    padding: 15px 25px 15px 25px;
+    padding: 15px 30px 15px 30px;
     width: 100%;
     appearance: none;
     position: relative;

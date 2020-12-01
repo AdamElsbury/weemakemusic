@@ -14,6 +14,11 @@
   border-radius: 8px;
 }
 
+.graph {
+  margin: 0 auto !important;
+  display: block;
+}
+
 .outerlap-img {
   border-radius: 13px 13px 13px 166px;
 }
@@ -34,6 +39,22 @@
 
   svg {
     path {
+      fill: $color-white;
+    }
+  }
+
+  &:hover {
+    svg {
+      path {
+        fill: $color-purple !important;
+      }
+    }
+  }
+}
+
+.btn-arrow-purple-secondary {
+  svg {
+    path {
       fill: $color-purple;
     }
   }
@@ -46,6 +67,8 @@
     }
   }
 }
+
+
 
 .btn-arrow-green {
   svg, path {
@@ -64,6 +87,22 @@
   }
 }
 
+.btn-arrow-green-secondary {
+  svg {
+    path {
+      fill: $color-green !important;
+    }
+  }
+
+  &:hover {
+    svg {
+      path {
+        fill: $color-white !important;
+      }
+    }
+  }
+}
+
 // Mobile
 
 @media screen and (max-width: 768px) {
@@ -77,7 +116,7 @@
 
   .graph {
     max-width: 300px;
-    margin: 0 auto;
+    margin: 0 auto !important;
     display: block;
   }
 }

@@ -61,7 +61,7 @@ button {
   font-weight: 600;
   color: #FFFFFF;
   border: 3px solid transparent;
-  padding: 13px 30px 13px 30px;
+  padding: 12px 30px 12px 30px;
   transition: all .3s;
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
@@ -74,7 +74,7 @@ button {
 }
 
 .btn-secondary {
-  font-family: $text-family-body;
+  font-family: $text-family-header;
   font-size: 12px;
   font-weight: 600;
   background-color: transparent;
